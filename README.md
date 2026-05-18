@@ -38,7 +38,7 @@ Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
 --dangerously-skip-permissions
 ```
 
-### Opció 2: Execució des de laplicació Claude:
+### Opció 2: Execució des de l'aplicació Claude:
 
 Un cop a l'opció claude code, selecciona la carpeta baixada i entra aquest prompt:
  

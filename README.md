@@ -30,7 +30,7 @@ claude code
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
 ```
 
-Si no vols autoritzar cada acció, pot executar abans:
+Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
 
 ```text
 --dangerously-skip-permissions

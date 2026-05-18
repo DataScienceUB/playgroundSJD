@@ -2,6 +2,19 @@
 
 Skills per fer una demostració segura amb professionals de salut mental.
 
+
+## Baixar el codi
+
+Des de la web GitHub:
+1. entra al repositori https://github.com/DataScienceUB/playgroundSJD/
+2. botó verd Code
+3. Download ZIP
+
+Descomprimeix:
+```bash
+unzip repo.zip
+```
+
 ## Instal·lació local a Claude Code
 
 ```bash

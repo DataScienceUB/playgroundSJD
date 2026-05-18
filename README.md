@@ -19,12 +19,28 @@ cp -R patient_family_communication ~/.claude/skills/
 cp -R clinical_demo_orchestrator ~/.claude/skills/
 ```
 
-Després, executa Claude Code des del terminal: 
+## Opció 1: Execució des del terminal
+
+Executa Claude Code des del terminal: 
 
 ```text
 claude code
 ```
  Un cop a dins, entra aquest prompt:
+ 
+```text
+Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
+```
+
+Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
+
+```text
+--dangerously-skip-permissions
+```
+
+## Opció 2: Execució des de laplicació Claude:
+
+Un cop a l'opció claude code, selecciona la carpeta baixada i entra aquest prompt:
  
 ```text
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.

@@ -19,14 +19,14 @@ cp -R patient_family_communication ~/.claude/skills/
 cp -R clinical_demo_orchestrator ~/.claude/skills/
 ```
 
-### Opció 1: Execució des del terminal
+### Opció 1: Execució amb claude code des del terminal (requereix anonimització del cas): 
 
 Executa Claude Code des del terminal: 
 
 ```text
 claude code
 ```
- Un cop a dins, entra aquest prompt:
+Un cop a dins, entra aquest prompt:
  
 ```text
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
@@ -38,7 +38,27 @@ Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
 --dangerously-skip-permissions
 ```
 
-### Opció 2: Execució des de l'aplicació Claude:
+### Opció 2: Execució amb Ollama des del terminal (no requereix privacitat):
+
+Executa Ollama claude code des del terminal: 
+
+```text
+ollama launch claude --model qwen3.5:4b
+```
+Un cop a dins, entra aquest prompt:
+ 
+```text
+Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
+```
+
+Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
+
+```text
+--dangerously-skip-permissions
+```
+
+
+### Opció 3: Execució des de l'aplicació Claude (requereix anonimització del cas):
 
 Un cop a l'opció claude code, selecciona la carpeta baixada i entra aquest prompt:
  

@@ -1,22 +1,8 @@
 # Clinical AI Skills Demo Pack
 
-Skills per fer una demostració segura amb professionals de salut mental.
-
-
-## Baixar el codi
-
-Des d'un navegador, eentra al repositori https://github.com/DataScienceUB/playgroundSJD/ i prem:
-1. botó verd Code
-2. opció Download ZIP
-
-Descomprimeix:
-```bash
-unzip repo.zip
-```
+Skills per fer una demostració segura amb metges d'un hospital, especialment en salut mental.
 
 ## Instal·lació local a Claude Code
-
-Des del directori de treball:
 
 ```bash
 mkdir -p ~/.claude/skills

@@ -7,8 +7,8 @@ Basat en: *Lempp T, de Lange D, Radeloff D, Bachmann C. **The clinical examinati
 ## Instal·lació local a Claude Code
 
 1. Baixar aquest repositori (en format .zip) a l'ordinador personal
-2. Entrar al directori que es crea al descomprimir el .zip ('/playgroundSJD-main')
-3. Executar:
+2. Des del terminal.navegar fins el directori que es crea al descomprimir el .zip ('/playgroundSJD-main')
+3. Executar des del terminal:
 
 ```bash
 mkdir -p ~/.claude/skills
@@ -19,7 +19,7 @@ cp -R patient_family_communication ~/.claude/skills/
 cp -R clinical_demo_orchestrator ~/.claude/skills/
 ```
 
-Després, navega amb el Terminal fins al directori obert i executa Claude Code: 
+Després, executa Claude Code des del terminal: 
 
 ```text
 claude code

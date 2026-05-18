@@ -19,6 +19,12 @@ Després, obre Claude Code dins d'una carpeta de demo amb un cas simulat i deman
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
 ```
 
+Si no vols autoritzar cada acció, pot executar abans:
+
+```text
+--dangerously-skip-permissions
+```text
+
 ## Principi de seguretat
 
 Aquest pack és només per a formació amb casos ficticis o dades sintètiques. No s'ha d'usar amb dades identificables de pacients ni per prendre decisions clíniques autònomes.

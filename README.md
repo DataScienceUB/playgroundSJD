@@ -23,7 +23,7 @@ Si no vols autoritzar cada acció, pot executar abans:
 
 ```text
 --dangerously-skip-permissions
-```text
+```
 
 ## Principi de seguretat
 

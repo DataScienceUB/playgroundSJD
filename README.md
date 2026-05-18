@@ -6,6 +6,10 @@ Basat en: *Lempp T, de Lange D, Radeloff D, Bachmann C. **The clinical examinati
 
 ## Instal·lació local a Claude Code
 
+1. Baixar aquest repositori (en format .zip) a l'ordinador personal
+2. Entrar al directori que es crea al descomprimir el .zip
+3. Exerfcutar:
+
 ```bash
 mkdir -p ~/.claude/skills
 cp -R clinical_case_review ~/.claude/skills/
@@ -15,8 +19,13 @@ cp -R patient_family_communication ~/.claude/skills/
 cp -R clinical_demo_orchestrator ~/.claude/skills/
 ```
 
-Després, obre Claude Code dins d'una carpeta de demo amb un cas simulat i demana, per exemple:
+Després, navega amb el Terminal fins al directori obert i executa Claude Code: 
 
+```text
+claude code
+```
+ Un cop a dins, entra aquest prompt:
+ 
 ```text
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
 ```

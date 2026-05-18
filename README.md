@@ -2,7 +2,7 @@
 
 Skills per fer una demostració segura amb metges d'un hospital, especialment en salut mental.
 
-Basat en: Lempp T, de Lange D, Radeloff D, Bachmann C. **The clinical examination of children, adolescents and their families**. In: Rey JM, editor. IACAPAP e-Textbook of Child and Adolescent Mental Health. Geneva: International Association for Child and Adolescent Psychiatry and Allied Professions; 2012.
+Basat en: *Lempp T, de Lange D, Radeloff D, Bachmann C. **The clinical examination of children, adolescents and their families**. In: Rey JM, editor. IACAPAP e-Textbook of Child and Adolescent Mental Health. Geneva: International Association for Child and Adolescent Psychiatry and Allied Professions; 2012.*
 
 ## Instal·lació local a Claude Code
 

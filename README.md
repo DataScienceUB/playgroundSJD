@@ -43,28 +43,6 @@ L’assistent pot ajudar a:
 
 ---
 
-## Arquitectura conceptual
-
-```text
-Usuari / professional clínic
-        ↓
-Entrada del cas clínic
-        ↓
-Router / selector de workflow
-        ↓
-Skill de screening inicial
-        ↓
-Anàlisi clínica estructurada
-        ↓
-Avaluació de risc
-        ↓
-Generador d’informe
-        ↓
-Revisió humana
-```
-
----
-
 ## Limitacions
 
 Aquest sistema:
@@ -75,7 +53,6 @@ Aquest sistema:
 Totes les sortides han de ser revisades per professionals qualificats.
 
 ---
-
 
 
 ## Instal·lació local a Claude Code

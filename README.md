@@ -8,7 +8,7 @@ Basat en: *Lempp T, de Lange D, Radeloff D, Bachmann C. **The clinical examinati
 
 1. Baixar aquest repositori (en format .zip) a l'ordinador personal
 2. Entrar al directori que es crea al descomprimir el .zip
-3. Exerfcutar:
+3. Executar:
 
 ```bash
 mkdir -p ~/.claude/skills

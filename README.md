@@ -7,7 +7,7 @@ Basat en: *Lempp T, de Lange D, Radeloff D, Bachmann C. **The clinical examinati
 ## Instal·lació local a Claude Code
 
 1. Baixar aquest repositori (en format .zip) a l'ordinador personal
-2. Entrar al directori que es crea al descomprimir el .zip
+2. Entrar al directori que es crea al descomprimir el .zip ('/playgroundSJD-main')
 3. Executar:
 
 ```bash

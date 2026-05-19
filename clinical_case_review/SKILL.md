@@ -8,13 +8,13 @@ version: 0.2.0
 
 ## Propòsit
 
-Transformar una nota clínica de salut mental simulada o anonimitzada en una revisió estructurada que ajudi un clínic a preparar-se per a la reflexió, la supervisió o una visita de seguiment.
+Transformar una nota clínica de salut mental anonimitzada en una revisió estructurada que ajudi un clínic a preparar-se per a la reflexió, la supervisió o una visita de seguiment.
 
 Quan el cas impliqui un infant o adolescent, s'apliquen els criteris de l'avaluació clínica infanto-juvenil (IACAPAP A.5): context de desenvolupament, múltiples informants, marc SIFFE i les 3 Ps.
 
 ## Límits de seguretat
 
-- Treballa només amb casos ficticis, sintètics o correctament anonimitzats.
+- Treballa només amb casos correctament anonimitzats.
 - No diagnostiquis.
 - No prescriguis medicació ni canvis de tractament.
 - No infereixis fets que no estiguin presents a l'entrada.
@@ -31,7 +31,7 @@ Indica que es tracta de suport a la decisió per a un clínic, no d'una decisió
 
 *(especialment rellevant en casos infanto-juvenils)*
 
-- Qui ha iniciat la consulta i per quina raó? (¿De quién es el problema? ¿Por qué ahora?)
+- Qui ha iniciat la consulta i per quina raó?
 - Qui més està preocupat pel pacient i per quina raó?
 - Quines expectatives explícites i implícites hi ha de la família, l'escola o altres parts?
 - Quins informants han aportat informació i quins manquen (pares, escola, pediatre, iguals)?

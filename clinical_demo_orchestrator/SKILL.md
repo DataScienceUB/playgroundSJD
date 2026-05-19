@@ -12,12 +12,9 @@ Executar una demostració completa i segura per a clínics, usant únicament cas
 ## Seqüència de la demo
 
 ### Pas 0 — Verificació de seguretat
-Abans de fer res, verifica:
-- El cas és fictici, sintètic o anonimitzat.
-- No hi ha identificadors personals.
-- La sortida és només per a formació o suport al clínic.
+Abans de fer res, verifica que el cas està anonimitzat, no hi ha identificadors personals. Si l'entrada inclou noms, identificadors, telèfons, adreces, dates de naixement exactes o altres identificadors, para i demana l'anonimització.
 
-Si l'entrada inclou noms, identificadors, telèfons, adreces, dates de naixement exactes o altres identificadors, para i demana l'anonimització.
+La sortida és només per a formació o suport al clínic.
 
 ### Pas 1 — Revisió estructurada del cas
 Invoca el flux de treball clinical_case_review:
@@ -28,7 +25,7 @@ Invoca el flux de treball clinical_case_review:
 - Preguntes de seguiment
 - Llista de no-inferències
 
-Desa o proposa desar com a:
+Desa a:
 `sortides/resum_clinic.md`
 
 ### Pas 2 — Transformació de la comunicació
@@ -37,7 +34,7 @@ Invoca el flux de treball patient_family_communication:
 - Guia de conversa per a la família
 - Nota de traspàs breu per al clínic
 
-Desa o proposa desar com a:
+Desa a:
 `sortides/comunicacio_pacient_familia.md`
 
 ### Pas 3 — Auditoria de punts cecs
@@ -49,7 +46,7 @@ Invoca el flux de treball clinical_blindspot_audit:
 - Estigma
 - Factors protectors
 
-Desa o proposa desar com a:
+Desa a:
 `auditories/blindspot.md`
 
 ### Pas 4 — Auditoria de seguretat
@@ -60,7 +57,7 @@ Produeix:
 - Versió corregida
 - Nota de supervisió humana
 
-Desa o proposa desar com a:
+Desa a:
 `auditories/seguretat.md`
 
 ### Pas 5 — Debriefing per a clínics
@@ -69,6 +66,9 @@ Conclou amb un debriefing docent concís:
 - Què no podia saber
 - On el judici humà ha estat essencial
 - Com es podria governar institucionalment el flux de treball
+
+Desa a:
+`auditories/debriefing.md`
 
 ## Guió de demo per al presentador
 Utilitza aquest enquadrament verbal:

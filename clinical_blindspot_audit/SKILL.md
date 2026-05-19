@@ -12,7 +12,7 @@ Identificar allò que un clínic o un resum generat per IA pot estar passant per
 Quan el cas impliqui un infant o adolescent, s'apliquen dimensions addicionals derivades dels criteris de l'avaluació clínica infanto-juvenil (IACAPAP A.5).
 
 ## Entrades
-- Text original del cas, si està disponible.
+- Text original del cas.
 - Resum generat per IA o esborrany de nota.
 - Qualsevol criteri clínic local o política de seguretat.
 

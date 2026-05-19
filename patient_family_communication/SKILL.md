@@ -7,7 +7,7 @@ version: 0.1.0
 # Comunicació amb el Pacient i la Família
 
 ## Propòsit
-Crear una comunicació clara, respectuosa i no estigmatitzadora a partir d'un resum de cas simulat orientat al clínic.
+Crear una comunicació clara, respectuosa i no estigmatitzadora a partir d'un resum de cas orientat al clínic.
 
 ## Límits de seguretat
 - No revelia detalls confidencials més enllà del públic destinatari.

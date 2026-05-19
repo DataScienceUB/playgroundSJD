@@ -7,7 +7,7 @@ version: 0.1.0
 # Auditoria de Seguretat Clínica
 
 ## Propòsit
-Auditar una sortida clínica generada per IA abans de mostrar-la en una sessió de formació, usar-la en un flux de treball simulat o desar-la com a artefacte de demostració.
+Auditar una sortida clínica generada per IA abans de mostrar-la en una sessió de formació, usar-la en un flux de treball o desar-la com a artefacte de demostració.
 
 ## Línies vermelles
 Marca i corregeix qualsevol sortida que:

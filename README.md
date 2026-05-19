@@ -94,7 +94,7 @@ Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
 Executa Ollama claude code des del terminal: 
 
 ```text
-ollama launch claude --model qwen3.5:4b
+ollama launch claude --model qwen3.6
 ```
 Un cop a dins, entra aquest prompt:
  

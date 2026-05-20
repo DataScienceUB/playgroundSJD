@@ -83,20 +83,14 @@ Un cop a dins, entra aquest prompt:
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
 ```
 
-Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
+### Opció 2: Execució amb ollama des del terminal (no requereix anonimització del cas):
 
-```text
---dangerously-skip-permissions
-```
-
-### Opció 2: Execució amb Ollama des del terminal (no requereix privacitat):
-
-Executa des del terminal (mem: 24GB): 
+Executa des del terminal (necessitat de memòria: 24GB): 
 
 ```text
 ollama launch claude --model qwen3.6
 ```
-o en el cas d'un Mac amb prou memòria (mem: 38GB) pots executar aquest model especialitzat en agents:
+o en el cas d'un Mac amb prou memòria (necessitat de memòria: : 38GB) pots executar aquest model especialitzat en agents:
 
 ```text
 ollama launch claude --model qwen3.6:35b-a3b-coding-mxfp8
@@ -108,13 +102,6 @@ Un cop a dins, entra aquest prompt:
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
 ```
 
-Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
-
-```text
---dangerously-skip-permissions
-```
-
-
 ### Opció 3: Execució des de l'aplicació Claude (requereix anonimització del cas):
 
 Un cop a l'opció claude code, selecciona la carpeta baixada i entra aquest prompt:
@@ -123,15 +110,9 @@ Un cop a l'opció claude code, selecciona la carpeta baixada i entra aquest prom
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
 ```
 
-Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
-
-```text
---dangerously-skip-permissions
-```
-
 ## Principi de seguretat
 
-Aquest pack és només per a formació amb casos ficticis o dades sintètiques. No s'ha d'usar amb dades identificables de pacients ni per prendre decisions clíniques autònomes.
+Aquest pack és només per a formació amb casos anònims o dades sintètiques. No és aconsellable usar-lo amb dades identificables de pacients ni per prendre decisions clíniques autònomes sense una auditoria prèvia del projecte.
 
 ## Contacte
 

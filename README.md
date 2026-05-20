@@ -91,11 +91,17 @@ Si no vols autoritzar cada acció, pot escriure i executar aquest prompt abans:
 
 ### Opció 2: Execució amb Ollama des del terminal (no requereix privacitat):
 
-Executa Ollama claude code des del terminal: 
+Executa Ollama claude code des del terminal (mem: 24GB): 
 
 ```text
 ollama launch claude --model qwen3.6
 ```
+o en un Mac (mem: 38GB)
+
+```text
+ollama launch claude --model qwen3.6:35b-a3b-coding-mxfp8
+```
+
 Un cop a dins, entra aquest prompt:
  
 ```text

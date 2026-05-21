@@ -81,12 +81,14 @@ claude code
 3. Per connectar-ho a ollama, executar des del terminal:
 
 ```text
-ollama launch claude --model qwen3.6 # necessita 24GB de memòria
+# necessita 24GB de memòria
+ollama launch claude --model qwen3.6
 ```
 o en el cas d'un Mac amb prou memòria pots executar aquest model especialitzat en agents:
 
 ```text
-ollama launch claude --model qwen3.6:35b-a3b-coding-mxfp8 # necessita 38GB de memòria
+# necessita 38GB de memòria
+ollama launch claude --model qwen3.6:35b-a3b-coding-mxfp8 
 ```
 
 3. DUn cop dins de l'assistent executa:

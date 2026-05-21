@@ -91,7 +91,7 @@ o en el cas d'un Mac amb prou memòria pots executar aquest model especialitzat 
 ollama launch claude --model qwen3.6:35b-a3b-coding-mxfp8 
 ```
 
-3. DUn cop dins de l'assistent executa:
+3. Un cop dins de l'assistent executa:
 
 ```text
 /plugin marketplace add DataScienceUB/datascienceub-skills

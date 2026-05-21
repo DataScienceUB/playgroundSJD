@@ -73,40 +73,12 @@ cp -R clinical_demo_orchestrator ~/.claude/skills/
 ## Instal·lació automàtica dels skills i connexió a claude/ollama
 
 1. Des del terminal navega fins el directori on tens el cas
-2. Executar des del terminal:
+2. Per connectar-ho a claude, executar des del terminal:
 
 ```bash
 claude code
 ```
-o
-
-```text
-ollama launch claude --model qwen3.6
-```
-
-3. Dins de l'assistent executa:
-
-```text
-/plugin marketplace add DataScienceUB/datascienceub-skills
-/plugin install playgroundSJD@datascienceub-skills
-```
-
-### Opció 1: Execució amb claude code des del terminal (requereix anonimització del cas): 
-
-Executa des del terminal: 
-
-```text
-claude code
-```
-Un cop a dins, entra aquest prompt:
- 
-```text
-Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
-```
-
-### Opció 2: Execució amb ollama des del terminal (no requereix anonimització del cas):
-
-Executa des del terminal (necessitat de memòria: 24GB): 
+3. Per connectar-ho a ollama, executar des del terminal:
 
 ```text
 ollama launch claude --model qwen3.6
@@ -117,13 +89,30 @@ o en el cas d'un Mac amb prou memòria (necessitat de memòria: : 38GB) pots exe
 ollama launch claude --model qwen3.6:35b-a3b-coding-mxfp8
 ```
 
-Un cop a dins, entra aquest prompt:
+3. DUn cop dins de l'assistent executa:
+
+```text
+/plugin marketplace add DataScienceUB/datascienceub-skills
+/plugin install playgroundSJD@datascienceub-skills
+```
+
+## Execució dels skills amb claude code des del terminal (requereix anonimització del cas): 
+
+Des de claude code, entra aquest prompt:
  
 ```text
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
 ```
 
-### Opció 3: Execució des de l'aplicació Claude (requereix anonimització del cas):
+## Execució dels skills amb ollama des del terminal (no requereix anonimització del cas):
+
+Des d'ollama, entra aquest prompt:
+ 
+```text
+Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
+```
+
+### Execució dels skills des de l'aplicació Claude (requereix anonimització del cas):
 
 Un cop a l'opció claude code, selecciona la carpeta baixada i entra aquest prompt:
  

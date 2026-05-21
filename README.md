@@ -55,7 +55,7 @@ Totes les sortides han de ser revisades per professionals qualificats.
 ---
 
 
-## Instal·lació local d'aquest repositori i connexió a claude code
+## Instal·lació manual d'aquest repositori i connexió a claude code
 
 1. Baixar aquest repositori (en format .zip) a l'ordinador personal
 2. Des del terminal navegar fins el directori que es crea al descomprimir el .zip ('/playgroundSJD-main')
@@ -68,6 +68,27 @@ cp -R clinical_blindspot_audit ~/.claude/skills/
 cp -R clinical_safety_audit ~/.claude/skills/
 cp -R patient_family_communication ~/.claude/skills/
 cp -R clinical_demo_orchestrator ~/.claude/skills/
+```
+
+## Instal·lació auitmàtica dels skills i connexió a claude/ollama
+
+1. Des del terminal navega fins el directori on tens el cas
+2. Executar des del terminal:
+
+```bash
+claude code
+```
+o
+
+```text
+ollama launch claude --model qwen3.6
+```
+
+3. Dins de l'assistent executa:
+
+```text
+/plugin marketplace add DataScienceUB/datascienceub-skills
+/plugin install playgroundSJD@datascienceub-skills
 ```
 
 ### Opció 1: Execució amb claude code des del terminal (requereix anonimització del cas): 

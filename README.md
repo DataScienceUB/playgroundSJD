@@ -114,14 +114,6 @@ Des d'ollama, entra aquest prompt:
 Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
 ```
 
-### Execució dels skills des de l'aplicació Claude (requereix anonimització del cas):
-
-Un cop a l'opció claude code, selecciona la carpeta baixada i entra aquest prompt:
- 
-```text
-Fes servir l'skill clinical_demo_orchestrator per fer una revisió del cas que pots trobar al fitxer 'cas_simulat.md'.
-```
-
 ## Principi de seguretat
 
 Aquest pack és només per a formació amb casos anònims o dades sintètiques. No és aconsellable usar-lo amb dades identificables de pacients ni per prendre decisions clíniques autònomes sense una auditoria prèvia del projecte.

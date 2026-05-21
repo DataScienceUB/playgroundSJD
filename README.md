@@ -70,7 +70,7 @@ cp -R patient_family_communication ~/.claude/skills/
 cp -R clinical_demo_orchestrator ~/.claude/skills/
 ```
 
-## Instal·lació auitmàtica dels skills i connexió a claude/ollama
+## Instal·lació automàtica dels skills i connexió a claude/ollama
 
 1. Des del terminal navega fins el directori on tens el cas
 2. Executar des del terminal:

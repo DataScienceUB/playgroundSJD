@@ -62,12 +62,11 @@ Totes les sortides han de ser revisades per professionals qualificats.
 3. Executar des del terminal:
 
 ```bash
-mkdir -p ~/.claude/skills
-cp -R clinical_case_review ~/.claude/skills/
-cp -R clinical_blindspot_audit ~/.claude/skills/
-cp -R clinical_safety_audit ~/.claude/skills/
-cp -R patient_family_communication ~/.claude/skills/
-cp -R clinical_demo_orchestrator ~/.claude/skills/
+mkdir -p .claude/skills
+cp -R clinical_case_review .claude/skills/
+cp -R clinical_blindspot_audit .claude/skills/
+cp -R clinical_safety_audit .claude/skills/
+cp -R clinical_demo_orchestrator .claude/skills/
 ```
 
 ## Instal·lació automàtica dels skills i connexió a claude/ollama

@@ -93,7 +93,7 @@ ollama launch claude --model qwen3.6:35b-a3b-coding-mxfp8
 3. Un cop dins de l'assistent executa aquestes dues instruccions per activar els skills:
 
 ```text
-/plugin marketplace add DataScienceUB/datascienceub-skills
+/plugin marketplace add https://github.com/DataScienceUB/datascienceub-skills.git
 /plugin install playgroundSJD@datascienceub-skills
 ```
 

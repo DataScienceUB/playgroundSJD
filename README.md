@@ -55,7 +55,7 @@ Totes les sortides han de ser revisades per professionals qualificats.
 ---
 
 
-## Instal·lació manual d'aquest repositori i connexió a claude code
+## Instal·lació manual d'aquest repositori
 
 1. Baixar aquest repositori (en format .zip) a l'ordinador personal
 2. Des del terminal navegar fins el directori que es crea al descomprimir el .zip ('/playgroundSJD-main')

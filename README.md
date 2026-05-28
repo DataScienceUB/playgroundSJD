@@ -69,7 +69,7 @@ cp -R clinical_safety_audit .claude/skills/
 cp -R clinical_demo_orchestrator .claude/skills/
 ```
 
-## Instal·lació automàtica dels skills i connexió a claude/ollama
+## Treballar amb claude/ollama
 
 1. Des del terminal navega fins el directori on tens el cas
 2. Per connectar-ho a claude, executar des del terminal:
@@ -88,13 +88,6 @@ o en el cas d'un Mac amb prou memòria pots executar aquest model especialitzat 
 ```text
 # necessita 38GB de memòria
 ollama launch claude --model qwen3.6:35b-a3b-coding-mxfp8 
-```
-
-3. Un cop dins de l'assistent executa aquestes dues instruccions per activar els skills:
-
-```text
-/plugin marketplace add https://github.com/DataScienceUB/datascienceub-skills.git
-/plugin install playgroundSJD@datascienceub-skills
 ```
 
 ## Execució dels skills amb claude code des del terminal (requereix anonimització del cas): 
